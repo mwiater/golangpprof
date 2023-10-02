@@ -5,11 +5,11 @@
 ## Output
 
 ```
-Function                       |Execution Time   |Perf. Gain   |Concurrency
-ProcessImageGrayscale          |777ms            |(baseline)   |1
-ProcessImageGrayscaleOptimized |501ms            |1.55x        |8
-ProcessImageSharpen            |2624ms           |(baseline)   |1
-ProcessImageSharpenOptimized   |876ms            |3.00x        |8
+Function                       |File Size     |Execution Time   |Perf. Gain   |Concurrency
+ProcessImageGrayscale          |5598865 Bytes |777ms            |(baseline)   |1
+ProcessImageGrayscaleOptimized |5598865 Bytes |501ms            |1.55x        |8
+ProcessImageSharpen            |5598865 Bytes |2624ms           |(baseline)   |1
+ProcessImageSharpenOptimized   |5598865 Bytes |876ms            |3.00x        |8
 
 Max Baseline Throughput Per Day (GB):  264.93
 Max Optimized Throughput Per Day (GB): 654.35
